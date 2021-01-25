@@ -20,6 +20,7 @@ function App() {
         </a>
         <a href="https://www.jenkins.io/" target="_blank">Learn Jenkins</a>
         <a href="https://git-scm.com/" target="_blank">Learn Git</a>
+        <a href="https://github.com/" target="_blank">Learn GitHub</a>
       </header>
     </div>
   );
