@@ -21,7 +21,10 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'npm run deploy'
+                sh '''
+                git config remote.origin.url git@github.com:cazziwork/jenkins-deep-dive.git
+                npm run deploy
+                '''
             }
         }
     }
