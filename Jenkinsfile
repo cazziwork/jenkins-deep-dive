@@ -22,7 +22,7 @@ pipeline {
         stage('deploy') {
             steps {
                 sh '''
-                git config remote.origin.url git@github.com:cazziwork/jenkins-deep-dive.git
+                git config remote.origin.url git@github.com:jenkins-deep-dive/jenkins-deep-dive.git
                 npm run deploy
                 '''
             }

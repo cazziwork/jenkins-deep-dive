@@ -2,7 +2,7 @@
   "name": "react-sample",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cazziwork.github.com/jenkins-deep-dive",
+  "homepage": "https://jenkins-deep-dive.github.com/jenkins-deep-dive",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
